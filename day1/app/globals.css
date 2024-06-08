@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tintOverlay {
+  background-color: rgba(247, 111, 183, 0.5); /* Pink color with 50% opacity */
+  mix-blend-mode: multiply;
+  filter: brightness(1.25)/* Blend the overlay with the image */
+}
+
+/* styles/globals.css */
+
